@@ -26,9 +26,15 @@ and then plotting this information in-terms of in which cases for example having
    4) XGBoost Classifier :
    5) Decision tree :
 4) `Hyperparameter Tuning` : Based on the above models we are then trying to work on the factors/nobes by which we can try to improve the performance of the algorithms.
-And for that we are using this technique which is nothing but Tuning/regulating the nobes whihc we can change inorder to get out the best performance from the Algorithm and for that purpose we are experimenting by using 2 techniques:<br>
+And for that we are using this technique which is nothing but Tuning/regulating the nobes which we can change in-order to get out the best performance from the Algorithm and for that purpose we are experimenting by using 2 techniques:<br>
     1) GridSearchCV
-    2) RandomizedSearchCV 
+    2) RandomizedSearchCV
+But, having said that this is a generic statement for explaination purpose which i have used in the project.<br>
+To Delve bit into details just for understanding:
+* Using **KNN** randomly on the dataset gave us **68%** Accuracy but by just changing the nobe of ***n_neighbors***, ***leaf_size***, and ***p*** to their best possible value that changed the accuracy to **77%**. <br>
+
+Thus so on the main learning from this project is the tuning nobes. by which you could improve the accuracy a little bit which matters the most.
+      
 5) `Model Evaluation` : The trained models are then evaluated using various metrics such as accuracy, precision, recall, F1-Score, and Cross-Validation Techniques as employed to ensure robustness of the results.
 6) `Feature Importance` : Feature importance is been done to analyze which features from the data are actually contributing most to the model's prediction.
 ## Results
